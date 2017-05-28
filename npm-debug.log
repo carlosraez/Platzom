@@ -1,0 +1,116 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/CARLOS/Documents/programacion/Fundamentos/Proyecto',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/CARLOS/.npm/@carlosraez/platzom/0.1.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/CARLOS/.npm correctMkdir not in flight; initializing
+10 info lifecycle @carlosraez/platzom@0.1.0~prepublish: @carlosraez/platzom@0.1.0
+11 silly lifecycle @carlosraez/platzom@0.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/CARLOS/.npm/@carlosraez/platzom/0.1.0/package.tgz',
+12 verbose tar pack   '/Users/CARLOS/Documents/programacion/Fundamentos/Proyecto' ]
+13 verbose tarball /Users/CARLOS/.npm/@carlosraez/platzom/0.1.0/package.tgz
+14 verbose folder /Users/CARLOS/Documents/programacion/Fundamentos/Proyecto
+15 verbose addLocalTarball adding from inside cache /Users/CARLOS/.npm/@carlosraez/platzom/0.1.0/package.tgz
+16 verbose correctMkdir /Users/CARLOS/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd @carlosraez/platzom@0.1.0
+18 verbose afterAdd /Users/CARLOS/.npm/@carlosraez/platzom/0.1.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/CARLOS/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/CARLOS/.npm/@carlosraez/platzom/0.1.0/package/package.json written
+21 silly publish { name: '@carlosraez/platzom',
+21 silly publish   version: '0.1.0',
+21 silly publish   description: 'traductor de idioma platzom',
+21 silly publish   main: 'dist/src/platzom.js',
+21 silly publish   scripts: { build: 'babel src/platzom.js -d dist', test: 'mocha' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+ssh://git@github.com/carlosraez/Platzom.git' },
+21 silly publish   keywords: [ 'Platzom', 'Platzi', 'fundamentos', 'de', 'Javascript' ],
+21 silly publish   author:
+21 silly publish    { name: '“Carlos',
+21 silly publish      email: 'carlosraez@gmail.com',
+21 silly publish      url: '“www.carlosraez.com”' },
+21 silly publish   license: 'MIT',
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-cli': '^6.24.1',
+21 silly publish      'babel-preset-env': '^1.5.1',
+21 silly publish      chai: '^4.0.0',
+21 silly publish      mocha: '^3.4.2' },
+21 silly publish   readme: '#PLATZOM\n\nPLATZOM ES UN IDIOMA INVENTADO PARA EL [CURSO DE FUNDAMENTOS DE JAVASCRITP](www.platzi.com/js)\n\n\n## Descripción del idioma\n\n- Si la palabra termina con "AR" se le quitan esas dos letras\n- Si la palabra incia con Z, se le añade una "pe" al final\n- Si la palabra traducida tiene 10 o mas letras se debe partir en dos por la mitad y unir con - en medio\n- Si la palabra original es un palindromo, ninguna anterior regla cuenta y se devuelve la misma palabra pero intercalando letras mayusculas y letras minusculas\n\n## Instalación\n\n```\nnpm install platzom\n\n```\n## Uso\n\n```\nimport platzom from \'platzom\'\n\nplatzom("Programr") //Program\nplatzom("Zorro")    //Zorrope\nplatzom("Zarpar")   //Zarppe\nplatzom("abecedario") //abece-dario\nplatzom("sometemos")  //SoMeTeMoS\n\n```\n##Creditos\n\n-[Carlos Raez](www.carlosraez.com)\n\n## MIT (https://opensource.org/licenses/MIT)\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '8a37a5dc1effd4d999579d79bcf3b3534f9025fa',
+21 silly publish   bugs: { url: 'https://github.com/carlosraez/Platzom/issues' },
+21 silly publish   homepage: 'https://github.com/carlosraez/Platzom#readme',
+21 silly publish   _id: '@carlosraez/platzom@0.1.0',
+21 silly publish   _shasum: '1a07d4b92b28b571f01d2995b2a4716ff0f45008',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @carlosraez/platzom
+24 silly mapToRegistry scope (from package name) @carlosraez
+25 verbose mapToRegistry no registry URL found in name for scope @carlosraez
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@carlosraez/platzom',
+28 silly mapToRegistry   scope: '@carlosraez',
+28 silly mapToRegistry   escapedName: '@carlosraez%2fplatzom',
+28 silly mapToRegistry   name: '@carlosraez/platzom',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@carlosraez%2fplatzom
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading /Users/CARLOS/.npm/@carlosraez/platzom/0.1.0/package.tgz
+32 verbose request uri https://registry.npmjs.org/@carlosraez%2fplatzom
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 20:44:11
+35 verbose request using bearer token for auth
+36 verbose request id b634a784b190e4cb
+37 http request PUT https://registry.npmjs.org/@carlosraez%2fplatzom
+38 http 402 https://registry.npmjs.org/@carlosraez%2fplatzom
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '119',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Sun, 28 May 2017 18:44:12 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-mad9426-MAD',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1495997051.400958,VS0,VE987' }
+40 verbose request invalidating /Users/CARLOS/.npm/registry.npmjs.org/_40carlosraez_252fplatzom on PUT
+41 error publish Failed PUT 402
+42 verbose stack Error: You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @carlosraez/platzom
+42 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+42 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+42 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at Request.emit (events.js:191:7)
+42 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+42 verbose stack     at emitOne (events.js:96:13)
+42 verbose stack     at Request.emit (events.js:188:7)
+42 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+43 verbose statusCode 402
+44 verbose pkgid @carlosraez/platzom
+45 verbose cwd /Users/CARLOS/Documents/programacion/Fundamentos/Proyecto
+46 error Darwin 16.6.0
+47 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+48 error node v6.10.3
+49 error npm  v3.10.10
+50 error code E402
+51 error You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @carlosraez/platzom
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
