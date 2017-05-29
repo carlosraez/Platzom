@@ -48,11 +48,11 @@
 21 silly publish      mocha: '^3.4.2' },
 21 silly publish   readme: '#PLATZOM\n\nPLATZOM ES UN IDIOMA INVENTADO PARA EL [CURSO DE FUNDAMENTOS DE JAVASCRITP](www.platzi.com/js)\n\n\n## Descripción del idioma\n\n- Si la palabra termina con "AR" se le quitan esas dos letras\n- Si la palabra incia con Z, se le añade una "pe" al final\n- Si la palabra traducida tiene 10 o mas letras se debe partir en dos por la mitad y unir con - en medio\n- Si la palabra original es un palindromo, ninguna anterior regla cuenta y se devuelve la misma palabra pero intercalando letras mayusculas y letras minusculas\n\n## Instalación\n\n```\nnpm install platzom\n\n```\n## Uso\n\n```\nimport platzom from \'platzom\'\n\nplatzom("Programr") //Program\nplatzom("Zorro")    //Zorrope\nplatzom("Zarpar")   //Zarppe\nplatzom("abecedario") //abece-dario\nplatzom("sometemos")  //SoMeTeMoS\n\n```\n##Creditos\n\n-[Carlos Raez](www.carlosraez.com)\n\n## MIT (https://opensource.org/licenses/MIT)\n',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: '8a37a5dc1effd4d999579d79bcf3b3534f9025fa',
+21 silly publish   gitHead: '5fcb7edec2a7a050db64c35a5c816a5d03379ebe',
 21 silly publish   bugs: { url: 'https://github.com/carlosraez/Platzom/issues' },
 21 silly publish   homepage: 'https://github.com/carlosraez/Platzom#readme',
 21 silly publish   _id: '@carlosraez/platzom@0.1.0',
-21 silly publish   _shasum: '1a07d4b92b28b571f01d2995b2a4716ff0f45008',
+21 silly publish   _shasum: '27d633aebec3c25e9a8eb8e4af9f7688ff42c71d',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name @carlosraez/platzom
@@ -73,22 +73,22 @@
 31 silly publish uploading /Users/CARLOS/.npm/@carlosraez/platzom/0.1.0/package.tgz
 32 verbose request uri https://registry.npmjs.org/@carlosraez%2fplatzom
 33 verbose request sending authorization for write operation
-34 info attempt registry request try #1 at 20:44:11
+34 info attempt registry request try #1 at 21:22:00
 35 verbose request using bearer token for auth
-36 verbose request id b634a784b190e4cb
+36 verbose request id 6a903b4163bd17ec
 37 http request PUT https://registry.npmjs.org/@carlosraez%2fplatzom
 38 http 402 https://registry.npmjs.org/@carlosraez%2fplatzom
 39 verbose headers { 'content-type': 'application/json',
 39 verbose headers   'cache-control': 'max-age=0',
 39 verbose headers   'content-length': '119',
 39 verbose headers   'accept-ranges': 'bytes',
-39 verbose headers   date: 'Sun, 28 May 2017 18:44:12 GMT',
+39 verbose headers   date: 'Mon, 29 May 2017 19:22:01 GMT',
 39 verbose headers   via: '1.1 varnish',
 39 verbose headers   connection: 'keep-alive',
-39 verbose headers   'x-served-by': 'cache-mad9426-MAD',
+39 verbose headers   'x-served-by': 'cache-mad9430-MAD',
 39 verbose headers   'x-cache': 'MISS',
 39 verbose headers   'x-cache-hits': '0',
-39 verbose headers   'x-timer': 'S1495997051.400958,VS0,VE987' }
+39 verbose headers   'x-timer': 'S1496085721.686948,VS0,VE1001' }
 40 verbose request invalidating /Users/CARLOS/.npm/registry.npmjs.org/_40carlosraez_252fplatzom on PUT
 41 error publish Failed PUT 402
 42 verbose stack Error: You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @carlosraez/platzom
